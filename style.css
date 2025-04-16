@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #080808;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header1 {
+  background-color: #146ef5;
+  color: #fffffe;
+  margin: -20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  height: 30px;
+  font-weight: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.header1 h2 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.navbar h2 {
+  color: #fff;
+  margin-top: 8px;
+}
+
+.list1,
+.list2 {
+  display: flex;
+  list-style: none;
+}
+
+.list1 a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.list2 a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+.started {
+  height: 50px;
+  width: 180px;
+  background-color: #146ef5;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.banner {
+  color: #fff;
+  padding: 25px 50px;
+}
+
+.banner h1 {
+  font-size: 80px;
+  margin: -0px 0 0 0;
+}
+
+.hero {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .box {
+  display: flex;
+  margin: 30px 70px 0 0 !important;
+}
+
+.box button {
+  height: 50px;
+  width: 160px;
+  background-color: #146ef5;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero div h2 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 20px 0 0 20px;
+}
+
+.hero h4 {
+  line-height: 1.5;
+  padding: 15px 0 0 50px;
+}
