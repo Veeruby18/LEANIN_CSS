@@ -1,0 +1,71 @@
+body {
+  background-color: orange;
+}
+
+.mid {
+  margin: 0 0 0 15rem;
+}
+
+.sell {
+  text-decoration: none;
+  color: orange;
+}
+
+.first-nav {
+  background-color: lightgray;
+  height: 30px;
+}
+
+.mid a {
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.jum {
+  color: black;
+}
+
+.john {
+  margin: 0 0 0 15rem;
+}
+
+.john li {
+  padding: 0 15px;
+}
+
+.search {
+  margin: 0 0 0 6rem;
+}
+
+.search input {
+  width: 370px !important;
+}
+
+.title {
+  font-weight: bold;
+  color: orange;
+}
+
+.lists {
+  background-color: #fff;
+  list-style: none;
+  padding: 10px 15px;
+  margin: 20px 0 0 0;
+  border-radius: 4px;
+}
+.lists li {
+  padding: 3px;
+  font-size: 14px;
+  font-weight: 100px;
+}
+
+.lists li a {
+  text-decoration: none;
+  color: black;
+}
+
+.carousel-item img {
+  height: 345px !important;
+  margin: 20px 0 30px 0;
+  border-radius: 4px;
+}
