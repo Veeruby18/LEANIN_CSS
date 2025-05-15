@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  background-color: rgb(219, 214, 224);
+  background-image: url(time.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #1d1616;
+  text-shadow: 2px 2px 2px 4px #412525;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  margin: 5px;
+  /* position: relative; */
+}
+
+.clock span {
+  height: 80px;
+  width: 100px;
+  font-size: 30px;
+  font-weight: 500;
+  width: 100px;
+  height: 80px;
+  background-color: brown;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.clock .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgb(156, 147, 165);
+  opacity: 0.8;
+}
+
+.clock #ampm {
+  bottom: 0;
+  /* position: absolute; */
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background-color: rgb(156, 147, 165);
+  margin-top: 80px;
+}
+
+.calender {
+  display: flex;
+}
+
+.calender div {
+  margin: 5px;
+}
+
+.calender span {
+  height: 80px;
+  width: 100px;
+  font-size: 30px;
+  font-weight: 500;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(56, 46, 46);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.calender .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgb(61, 43, 80);
+  opacity: 0.8;
+}
+
